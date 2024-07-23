@@ -12,5 +12,5 @@ export class DashboardItemComponent {
   src:string,
   alt:string,
 }
-@Input() title!:string;
+@Input({required:true}) title!:string;
 }
